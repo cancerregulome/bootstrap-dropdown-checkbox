@@ -17,13 +17,13 @@
   // Templates
   // **********************************
   var template = '\
-    <button class="dropdown-checkbox-toggle" data-toggle="dropdown" href="#">Dropdown trigger </button>\
+    <li class="dropdown">
+    <a class="dropdown-checkbox-toggle dropdown-toggle" data-toggle="dropdown" href="#">Tumor Types <b class="caret"></b></a>\
     <div class="dropdown-checkbox-content">\
-      <div class="dropdown-checkbox-header">\
-        <input class="checkbox-all" type="checkbox"><input type="text" placeholder="Search" class="search"/>\
-      </div>\
-      <ul class="dropdown-checkbox-menu"></ul>\
-    </div>'
+        <ul class="dropdown-checkbox-menu"></ul>\
+    </div>\
+    </li>';
+
   var templateOption = '<li><div class="layout"><input type="checkbox"/><label></label></div></li>'
   var templateNoResult = '<li><div class="layout"><label>No results.</label></div></li>'
   var templateNbSelected = ' <span class="dropdown-checkbox-nbselected"></span>'
