@@ -17,7 +17,7 @@
   // Templates
   // **********************************
   var template = '\
-    <li class="dropdown">
+    <li class="dropdown">\
     <a class="dropdown-checkbox-toggle dropdown-toggle" data-toggle="dropdown" href="#">Tumor Types <b class="caret"></b></a>\
     <div class="dropdown-checkbox-content">\
         <ul class="dropdown-checkbox-menu"></ul>\
