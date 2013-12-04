@@ -18,7 +18,7 @@
   // **********************************
   var template = '\
     <li class="dropdown">\
-    <a class="dropdown-checkbox-toggle dropdown-toggle" data-toggle="dropdown" href="#">Tumor Types <b class="caret"></b></a>\
+    <a class="dropdown-checkbox-toggle dropdown-toggle" data-toggle="dropdown" href="#"><span class="dropdown-title">Dropdown Title</span> <b class="caret"></a></b>\
     <div class="dropdown-checkbox-content">\
         <ul class="dropdown-checkbox-menu"></ul>\
     </div>\
@@ -46,7 +46,7 @@
 
     // Set options if exist
     if (typeof options === "object") {
-      this.$element.text(options.title)
+      this.$element.find(".dropdown-title").text(options.title)
       this.$element.addClass(options.btnClass)
       this.autosearch = options.autosearch
       this.elements = options.data || []
